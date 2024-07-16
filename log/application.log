@@ -1,0 +1,24 @@
+2024-07-15 20:10:01.506  INFO 38096 --- [main] c.rahulshettyacademy.CoursesApplication  : Starting CoursesApplication using Java 1.8.0_241 on DESKTOP-P33D7DO with PID 38096 (F:\git\microservices-contract-testing\Courses\target\classes started by krist in F:\git\microservices-contract-testing)
+2024-07-15 20:10:01.509  INFO 38096 --- [main] c.rahulshettyacademy.CoursesApplication  : No active profile set, falling back to default profiles: default
+2024-07-15 20:10:02.369  INFO 38096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-07-15 20:10:02.431  INFO 38096 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interfaces.
+2024-07-15 20:10:03.255  INFO 38096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8181 (http)
+2024-07-15 20:10:03.265  INFO 38096 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-15 20:10:03.266  INFO 38096 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2024-07-15 20:10:03.323  INFO 38096 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-15 20:10:03.323  INFO 38096 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1464 ms
+2024-07-15 20:10:03.549  INFO 38096 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-07-15 20:10:03.608  INFO 38096 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2024-07-15 20:10:03.765  INFO 38096 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-07-15 20:10:03.864  INFO 38096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-07-15 20:10:03.867  WARN 38096 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2024-07-15 20:10:04.359  INFO 38096 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-07-15 20:10:04.375  INFO 38096 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-07-15 20:10:04.949  INFO 38096 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-07-15 20:10:04.956  INFO 38096 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-07-15 20:10:05.258  WARN 38096 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-07-15 20:10:05.715  INFO 38096 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8181 (http) with context path ''
+2024-07-15 20:10:05.722  INFO 38096 --- [main] c.rahulshettyacademy.CoursesApplication  : Started CoursesApplication in 4.656 seconds (JVM running for 5.077)
+2024-07-15 20:10:26.446  INFO 38096 --- [http-nio-8181-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-15 20:10:26.446  INFO 38096 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-15 20:10:26.448  INFO 38096 --- [http-nio-8181-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
